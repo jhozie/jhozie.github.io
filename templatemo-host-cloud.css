@@ -291,45 +291,39 @@ header {
 
 }
 
-.hero input
+.banner form input
 {   
-	position: relative;
-	display: inline-block;
-	font-family: archivo;
-	font-size: 20px;
-	box-sizing: border-box;
-	transition: 5s;
+	 border:1px solid #fefefe;
+ border-radius:10px 0 0 10px;
+ background-color:white;
+ font-size:20px;
+ height:51px;
+ width: 70%;
+ color:#fefefe;
 }
-input[type="text"]
-{
-	background: #fff;
-	width: 490px;
-	height: 50px;
-	border: none;
-	outline: none;
-	padding: 0 25px;
+.banner form .btn {
+ background:#33D7FF;
+ color:#1692b0;
+ height:51px;
+ border-radius:0 10px 10px 0;
+ color:#1692b0;
+ width: 30%;
+ font-size:20px;
+ font-family:"Roboto Slab",serif
 }
-input[type="submit"]
-{
-
-	position: relative;
-	left: -5px;
-	width: 200px;
-	height: 50px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	background: #12dad1;
-	color: #fff;
+.banner form .btn svg {
+ color:#1692b0;
+ font-size:20px
 }
 .banner .caption 
 {
+	display: inline-block;
 	text-align: center;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 700px;
+	width: 600px;
 }
 .banner .caption h1 
 {
@@ -357,41 +351,7 @@ input[type="submit"]
 	font-size: 20px;
 	box-sizing: border-box;
 	transition: 5s;
-    
-}
-.banner #search-section input.searchText {
-	background: #fff;
-	width: 340px;
-	height: 50px;
-	border: none;
-	outline: none;
-	padding: 0 25px;
-}
-.banner #search-section input.main-button {
-	position: relative;
-	left: -5px;
-	width: 150px;
-	height: 50px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	background: #12dad1;
-	color: #fff;
-}
-.banner #search-section button:hover {
-	background-color: #00a4b9;
-}
-#search-section ::-webkit-input-placeholder { /* Edge */
-  color: #fff;
-}
-
-#search-section :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #fff;
-}
-
-#search-section ::placeholder {
-  color: #fff;
-}
+}    
 
 /* Trusted Style */
 .trusted-section {
@@ -953,11 +913,10 @@ footer .sub-footer a {
      	font-size: 4vw;
      	width: 90%;
      	padding-left: 25px;
-}
-
-@media (max-width: 700px) {
-	input[type="text"] {
-		width: 90%;
+    }
+	  .banner form input {
+		width: 60%;
+        margin-left: 10px;
 
 }
 @media (max-width: 500px){
