@@ -309,7 +309,8 @@ header {
  color:#fff;
  width: 30%;
  font-size:20px;
- font-family:"Roboto Slab",serif
+ font-family: archivo;
+ font-weight: 400px;
 }
 .banner form .btn svg {
  color:#1692b0;
