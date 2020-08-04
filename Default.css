@@ -1,5 +1,5 @@
 * {
- font-family:Roboto Slab;
+ font-family:poppins;
 }
 input {
  outline:0
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
- font-family:Roboto Slab;
+ font-family:poppins;
  margin:1.5em 0 0.5em 0
 }
 h1 {
@@ -197,7 +197,7 @@ nav button {
  border-radius:0 10px 10px 0;
  color:#593754;
  font-size:20px;
- font-family:"Roboto Slab",serif
+ font-family:"poppins",poppins
 }
 .homeLanding form .btn svg {
  color:#1692b0;
@@ -228,7 +228,7 @@ nav button {
  font-size:60px;
  color:#fefefe;
  text-align:center;
- font-family:Roboto Slab
+ font-family:poppins
 }
 .packageBox span:first-letter {
  font-size:34px
