@@ -104,12 +104,12 @@ footer ul li svg,
  padding:11px 26px
 }
 header {
- border-bottom:2px solid #593754;
+ border-bottom:0px solid #593754;
  background:#ffffff;
  padding:10px 0;
  -webkit-box-shadow:0,2px 5px rgba(0,0,0,0.16);
  box-shadow:0,2px 5px rgba(0,0,0,0.16)
- margin-bottom: -15px;
+ margin-bottom: -16px;
 }
 .navbar-brand {
  margin-right:30px
