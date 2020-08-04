@@ -162,7 +162,7 @@ nav button {
  }
 }
 .homeLanding {
-  background-image: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0.1)), url(https://jhozie.github.io/pf.jpg); 
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0.5)), url(https://jhozie.github.io/pf.jpg);
   background-size: cover; 
   padding: 150px 0px;
 }
