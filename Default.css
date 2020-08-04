@@ -104,7 +104,7 @@ footer ul li svg,
  padding:11px 26px
 }
 header {
- border:2px solid #593754;
+ border-bottom:2px solid #593754;
  background:#ffffff;
  padding:10px 0;
  margin-bottom: -16px;
