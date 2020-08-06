@@ -172,6 +172,9 @@ nav button {
  margin-bottom:0.2em;
  margin-top:0.3em
 }
+.homelanding p{
+ color: #fff;
+}
 .homeLanding .homeIcons svg {
  color:;
  font-size:30px;
@@ -258,6 +261,10 @@ nav button {
 @media screen and (max-width:991px) {
  .packageBox {
   min-height:auto
+ }
+@media screen and (max-width:380px) {
+ .homelanding h1 {
+  font-size: 5vw;
  }
 }
 footer {
