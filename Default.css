@@ -258,7 +258,7 @@ nav button {
  background-repeat:no-repeat
  margin-right: 35px;
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:1500px) {
  .packageBox {
   min-height:auto
  }
