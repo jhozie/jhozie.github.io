@@ -258,13 +258,14 @@ nav button {
  background-repeat:no-repeat
  margin-right: 35px;
 }
-@media screen and (max-width:1340px) {
+@media screen and (max-width:991px) {
  .packageBox {
   min-height:auto
  }
 @media screen and (max-width:380px) {
  .homelanding h1 {
-  font-size: 5vw;
+  font-size: 8vw;
+  line-height: 1;
  }
 }
 footer {
@@ -347,7 +348,7 @@ footer address svg {
  content:'\f2b6';
  display:none
 }
-@media screen and (max-width:1340px) {
+@media screen and (max-width:1500px) {
  .lowerFooter div {
   margin-bottom:20px
  }
@@ -355,7 +356,7 @@ footer address svg {
   text-align:left !important
  }
 }
-@media screen and (max-width:1340px) {
+@media screen and (max-width:1500px) {
  footer {
   padding:70px 30px
  }
