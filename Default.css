@@ -267,6 +267,11 @@ nav button {
   font-size: 8vw;
   line-height: 1.3;
  }
+@media screen and (max-width:380px) {
+ .homelanding .snip1214 {
+ .margin-left: 3vw;
+ .margin-right: 3vw;
+ }
 }
 footer {
  background-image: linear-gradient(90deg, rgba(19,8,28,0.8883928571428571) 42%, rgba(92,35,135,0.07886904761904767) 78%, rgb(17, 74, 85) 100%);
