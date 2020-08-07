@@ -405,6 +405,10 @@ padding-left: ;
 #content a:visited {
  color:#ffffff
 }
+ @media screen and (max-width: 570px)
+.efPanel {
+    width: 100%;
+ }
 #company_name {
  padding:8px;
  width:80%;
