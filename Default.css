@@ -392,7 +392,13 @@ h3#efPackageOptionalItemsTitle {
  padding:0
 }
 .efPanel {
- margin-bottom:16px;
+ width: 40%;
+height: 300px;
+margin: 0 auto;
+    margin-bottom: 0px;
+margin-bottom: 0px;
+padding-left: ;
+border-radius: 25px 25px 25px;
  -webkit-box-shadow:0 2px 5px rgba(0,0,0,0.16);
  box-shadow:0 2px 5px rgba(0,0,0,0.16)
 }
