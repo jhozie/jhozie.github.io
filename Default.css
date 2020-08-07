@@ -400,15 +400,17 @@ margin-bottom: 0px;
 padding-left: ;
  -webkit-box-shadow:0 2px 5px rgba(0,0,0,0.16);
  box-shadow:0 2px 5px rgba(0,0,0,0.16)
+ }
+}
+@media screen and (max-width: 500px) {
+.efPanel {
+    width: 100%;
+ }
 }
 #content a:link,
 #content a:visited {
  color:#ffffff
 }
- @media screen and (max-width: 570px)
-.efPanel {
-    width: 100%;
- }
 #company_name {
  padding:8px;
  width:80%;
